@@ -1,0 +1,22 @@
++---------------------------------+
+|         TrafficLightSystem      |
++---------------------------------+
+| - carGreen: const int           |
+| - carYellow: const int          |
+| - carRed: const int             |
+| - pedGreen: const int           |
+| - pedRed: const int             |
+| - buttonPin: const int          |
+| - buttonState: int              |
+| - pedestrianRequest: bool       |
+| - pedestrianGreenTime: const int|
+| - yellowTime: const int         |
++---------------------------------+
+| + TrafficLightSystem()          |
+| + update()                      |
++---------------------------------+
+| - switchToCarGreen()            |
+| - switchToCarYellow()           |
+| - switchToCarRed()              |
+| - switchToPedestrianGreen()     |
++---------------------------------+
